@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:MvvmLightApp.View"
+                    xmlns:vm="clr-namespace:MvvmLightApp.ViewModel"
+                    xmlns:local="clr-namespace:MvvmLightApp.Resources">
+    <DataTemplate DataType="{x:Type vm:AddTaskViewModel}">
+        <v:AddTaskView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type vm:ToDoListViewModel}">
+        <v:ToDoListView/>
+    </DataTemplate>
+</ResourceDictionary>
